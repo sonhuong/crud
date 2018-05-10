@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::resource('passports', 'PassportController');
+//Route::post('create', 'PassportController@create');
+//Route::post('create', 'PassportController@post');
+//Route::post('create', 'PassportController@post');
