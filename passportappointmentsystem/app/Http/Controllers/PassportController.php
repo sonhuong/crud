@@ -15,7 +15,7 @@ class PassportController extends Controller
     public function index()
     {
         $passports = Passport::all();
-        return view('index', compact('passports'));
+        return view('passport.list', compact('passports'));
     }
 
     /**
